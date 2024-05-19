@@ -16,11 +16,9 @@
 			<div class="container">
 				<div class="header__row">
 					<div class="logo">
-						<picture>
-							<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp" />
-							<source srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" type="image/png" />
-							<img src="./img/logo.png" alt="logotip" />
-						</picture>
+						<svg class="icon icon--favicon">
+							<use href="./img/svgsprite/sprite.symbol.svg#favicon"></use>
+						</svg>
 					</div>
 					<nav class="header-nav">
 						<ul class="header-menu">
@@ -37,6 +35,15 @@
 				</div>
 			</div>
 		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li class="nav__list-item"><a class="active" href="#!">Home</a></li>
+				<li class="nav__list-item"><a href="#!">Works</a></li>
+				<li class="nav__list-item"><a href="#!">Services</a></li>
+				<li class="nav__list-item"><a href="#!">About</a></li>
+				<li class="nav__list-item"><a href="#!">Contact</a></li>
+			</ul>
+		</div>
 
 		<main class="docs">
 			<section>

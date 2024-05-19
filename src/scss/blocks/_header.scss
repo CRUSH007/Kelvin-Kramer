@@ -1,20 +1,27 @@
 .header {
     padding-top: 46px;
+    @include mobile-L {
+        padding-top: 30px;
+    }
 }
 .container {
 }
 .header__row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
-.logo img {
+.logo .icon {
     display: inline-block;
     overflow: hidden;
-    height: 32px;
-    width: auto;
+    height: 64px;
+    width: 64px;
+    fill: #070707;
 }
 .header-nav {
+    @include mobile-L {
+        display: none;
+    }
 }
 .header-menu {
     display: flex;

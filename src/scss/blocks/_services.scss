@@ -6,10 +6,23 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    @include mobile {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
 .services__item {
+    width: 100%;
+    max-width: 370px;
+    @include mobile-L {
+        max-width: 315px;
+        
+    }
 }
-.services-picture {
+.services-picture .icon{
+    width: 68px;
+    height: 68px;
 }
 .icon {
 }

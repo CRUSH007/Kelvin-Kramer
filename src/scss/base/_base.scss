@@ -33,4 +33,7 @@ pre.code {
 }
 section{
 	padding-bottom: 90px;
+	@include mobile-L {
+		padding-bottom: 60px;
+	}
 }
