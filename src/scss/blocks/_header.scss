@@ -1,0 +1,31 @@
+.header {
+    padding-top: 46px;
+}
+.container {
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo img {
+    display: inline-block;
+    overflow: hidden;
+    height: 32px;
+    width: auto;
+}
+.header-nav {
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.header-menu__item a{
+    &:active, &:hover{
+        color:#606060;
+    }
+    font-weight: 500;
+    font-size: 14px;
+}

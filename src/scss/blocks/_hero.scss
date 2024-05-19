@@ -1,0 +1,33 @@
+.hero {
+    padding: 76px 0 90px;
+}
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description{
+    width: 100%;
+    max-width: 500px;
+}
+.title {
+    font-weight: 600;
+    font-size: 44px;
+    color: #000;
+}
+.subtitle {
+    font-weight: 600;
+    font-size: 44px;
+    color: #000;
+}
+.about__me {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ALTU</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="logo">
+						<picture>
+							<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" type="image/png" />
+							<img src="./img/logo.png" alt="logotip" />
+						</picture>
+					</div>
+					<nav class="header-nav">
+						<ul class="header-menu">
+							<li class="header-menu__item"><a href="#!">Home</a></li>
+							<li class="header-menu__item"><a href="#!">Works</a></li>
+							<li class="header-menu__item"><a href="#!">Services</a></li>
+							<li class="header-menu__item"><a href="#!">About</a></li>
+							<li class="header-menu__item"><a href="#!">Contact</a></li>
+						</ul>
+					</nav>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon"></div>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container">
+					<div class="hero__inner">
+						<div class="part">
+							<div class="description">
+								<h1 class="title">Kelvin Kramer</h1>
+								<p class="subtitle">Designer & Developer</p>
+								<p class="about__me">
+									I&#8217;m a&#160;portrait, fashion and lifestyle photographer living In&#160;New York City. During my&#160;thirteen year tenure here.
+								</p>
+							</div>
+						</div>
+						<div class="part">
+							<picture>
+								<source srcset="./img/hero/hero.webp 1x, ./img/hero/hero@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/hero/hero.png 1x, ./img/hero/hero@2x.png 2x" type="image/png" />
+								<img src="./img/hero/hero.png" alt="Alt" />
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="container">
+					<div class="services__inner">
+						<div class="services__item">
+							<div class="services-picture">
+								<svg class="icon icon--design">
+									<use href="./img/svgsprite/sprite.symbol.svg#design"></use>
+								</svg>
+							</div>
+							<div class="services-proff">UI/UX Design</div>
+							<div class="services-about">
+								<p>Our design is&#160;translated into comprehensive digital environments built on&#160;latest development standards.</p>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="services-picture">
+								<svg class="icon icon--develop">
+									<use href="./img/svgsprite/sprite.symbol.svg#develop"></use>
+								</svg>
+							</div>
+							<div class="services-proff">Development</div>
+							<div class="services-about">
+								<p>Our design is&#160;translated into comprehensive digital environments built on&#160;latest development standards.</p>
+							</div>
+						</div>
+						<div class="services__item">
+							<div class="services-picture">
+								<svg class="icon icon--testing">
+									<use href="./img/svgsprite/sprite.symbol.svg#testing"></use>
+								</svg>
+							</div>
+							<div class="services-proff">software testing</div>
+							<div class="services-about">
+								<p>Our design is&#160;translated into comprehensive digital environments built on&#160;latest development standards.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__copyright"></div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
