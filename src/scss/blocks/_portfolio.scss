@@ -1,0 +1,23 @@
+.portfolio {
+}
+.container {
+}
+.portfolio__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+.portfolio__item {
+    
+}
+.portfolio__photo {
+    margin-bottom: 40px;
+}
+.portfolio__title {
+
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #070707;
+}

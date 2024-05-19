@@ -1,8 +1,52 @@
 .footer {
-
 }
 
-.footer__copyright {
-
-
+.footer__inner {
+    max-width: 342px;
+    margin: 0 auto;
+    text-align: center;
+    color: #070707;
+}
+.footer__title {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 34px;
+}
+.invitation {
+    margin: 20px 0;
+}
+.footer__btn {
+    width: 180px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    margin: 0 auto;
+    background-color: #070707;
+    color: #fff;
+}
+.social-links {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51.8px;
+    margin: 70px 0 20px;
+}
+.social-link {
+}
+.icon {
+}
+.icon--LinkedIn {
+}
+.icon--Instargam {
+}
+.icon--Behance {
+}
+.icon--Dribble {
+}
+.like_me {
+    text-align: center;
+    color: #828282;
 }
